@@ -1,0 +1,23 @@
+clonar repositorio:
+git clone <url do repositorio a ser clonado>
+
+para subir arquivos em repositório já criado no git
+
+1) ir até a pasta com os arquivos
+2) rodar os comandos abaixo
+git init
+git status
+git add .
+git commit -m <descricao_commit>
+git remote add origin <url do repositorio já criado no git>
+git branch -m main
+git push -u origin main
+
+// deletar pasta de forma mais rápida
+rm -rf node_modules
+
+//remover origin:
+git remote rm origin
+
+//trocar de branch
+git checkout -b <nome_da_branch>
